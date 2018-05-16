@@ -1,20 +1,30 @@
-.card1-background{
-  background-image:url("../images/cafe.jpg");
+.home_1{
+  background-image:url("../images/bowling.jpg");
 }
-.card2-background{
+.home_2{
   background-image:url("../images/birthday.jpg");
 }
-.card3-background{
+.home_3{
   background-image:url("../images/platter.jpeg");
 }
+.home_4{
+  background-image:url("../images/platter.jpeg");
+}
+
 .card {
   border-radius: 10px 10px 10px 10px;
-  transition: height 0.6s;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 500px;
   height:300px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: opacity 1s;
+}
+
+.card:hover{
+  background-size: 120%;
 }
 
 .card .title{
@@ -22,8 +32,9 @@
   opacity:0.65;
   font-family: 'Jua', sans-serif;
   font-size: 38px;
-  position: relative;
+  position:static;
   width: 100%;
   top: 20px;
   background-color: white;
+  z-index: 2;
 }
