@@ -156,12 +156,13 @@ header{
 }
 
 .container {
-  margin-top: 80px;
+
   width:80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 24px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   grid-gap: 24px;
 
 }
@@ -175,58 +176,6 @@ header{
 }
 
 
-.bodytext{
-  width:80%;
-  margin-left:10%;
-  margin-right:10%;
-}
-.bodytext p{
-  font-size:30px;
-}
-
-
-h1 {
-padding-top:3em;
-padding-bottom:1em;
-text-align:center;
-}
-
-.Lorem {
-    text-align:center;
-}
-
-.Lorem p {
-    padding 10px 30px;
-}
-
-
-.Lorem ul {
-
-  margin-top:1em;
-
-}
-
-.Lorem h2 {
-
-  margin-top:1em;
-}
-
-.lorem h2+ul {
-
-  margin-top:1em;
-}
-
-.Lorem h1 {
-  text-align:center;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.deals img {
-  height:20em;
-  width: 24em;
-}
 /* ******************************* */
 /* *********** Footer  *********** */
 /* ******************************* */
@@ -287,5 +236,8 @@ text-align:center;
     }
     .booking-desktop {
       display:block;
+    }
+    .container{
+      grid-template-columns: auto auto;
     }
 }
