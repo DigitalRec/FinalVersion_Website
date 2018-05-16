@@ -10,13 +10,20 @@ https://css-tricks.com/three-line-menu-navicon*/
 body{
   background-color: #313131;
 }
-/********** Header  **********/
-/* desktop navigation bar css*/
+
+
+/* Three parts of body 1.header 2.mid_body 3.footer  */
+
+/* ******************************* */
+/* *********** Header  *********** */
+/* ******************************* */
+
 header{
   position: sticky;
   top:0;
   z-index: 1;
 }
+/* desktop navigation bar css*/
 .logo{
   width:18%;
   position:absolute;
@@ -30,7 +37,7 @@ header{
     display: none;
 
 }
-.desktop_nav .nav_btn{
+.desktop_nav .desktop_nav_btn{
     display: inline-block;
     padding:0 15px;
     line-height: 72px;
@@ -39,23 +46,19 @@ header{
     float:right;
 
 }
-
-.desktop_nav .nav_btn a{
+.desktop_nav .desktop_nav_btn a{
     color:#66FCF1;
     text-decoration:none;
     font-family: 'Anton',"Arial Black", Gadget, sans-serif;
     font-size: 20px;
 }
-.desktop_nav  .nav_btn:hover a{
+.desktop_nav  .desktop_nav_btn:hover a{
     color:#80c789;
 }
-
-
-.desktop_nav .nav_btn:hover{
+.desktop_nav .desktop_nav_btn:hover{
     background: #263c69;
 }
-
-/* mobile navigation bar css*/
+/* mobile nav & menu*/
 .mobile_nav{
     width:100%;
     background-color: #000000;
@@ -77,62 +80,6 @@ header{
     color:white;
     float:right;
     padding: 5px 10px;
-
-}
-.sidemenu .side_dropdown {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.sidemenu .side_dropdown .side_dropdown_list{
-    display: none;
-    padding-left: 8px;
-}
-.sidemenu .side_dropdown .side_dropdown_btn a{
-      text-decoration: none;
-      color: #818181;
-      font-size: 25px;
-      transition: 0.3s;
-}
-.sidemenu .side_dropdown .side_dropdown_btn a:hover{
-      color: #ffffff;
-}
-.sidemenu .side_dropdown .side_dropdown_list a{
-          display: block;
-          text-decoration: none;
-          font-size: 22px;
-          color:#aaaece;
-          margin:10px;
-
-}
-.sidemenu .side_dropdown .side_dropdown_list a:hover{
-    color:#ffffff;
-}
-
-/* Body */
-.main_body{
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #0E0B16;
-}
-.main_body .mid_body{
-  width:100%;
-  overflow: hidden;
-}
-.page_image{
-  width:100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: sticky;
-  top:0;
-  z-index: 0;
-}
-
-.expand{
-    display:block;
-}
-.active {
-    color:#ffffff;
 }
 .sidemenu{
     height: 100%;
@@ -156,14 +103,20 @@ header{
     font-size: 36px;
     margin-left: 50px;
 }
-.bodytext{
-  width:80%;
-  margin-left:10%;
-  margin-right:10%;
+
+.sidemenu  .side_dropdown_btn a{
+      text-decoration: none;
+      color: #818181;
+      font-size: 25px;
+      transition: 0.3s;
+      width:60%;
+      box-sizing: border-box;
 }
-.bodytext p{
-  font-size:30px;
+.sidemenu  .side_dropdown_btn a:hover{
+      color: #ffffff;
 }
+
+/***** Mobile hamburger icon *****/
 .hamburger{
   height:32px;
   width:35px;
@@ -179,6 +132,58 @@ header{
 .burger_line{
   margin-top: 7px;
 }
+
+/* ******************************* */
+/* ************ Body  ************ */
+/* ******************************* */
+.main_body{
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0E0B16;
+}
+.main_body .mid_body{
+  width:100%;
+  overflow: hidden;
+}
+.page_image{
+  width:100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: sticky;
+  top:0;
+  z-index: 0;
+}
+
+.container {
+  margin-top: 80px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 24px;
+
+}
+.items {
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.bodytext{
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+}
+.bodytext p{
+  font-size:30px;
+}
+
 
 h1 {
 padding-top:3em;
@@ -222,12 +227,21 @@ text-align:center;
   height:20em;
   width: 24em;
 }
-/* footer */
+/* ******************************* */
+/* *********** Footer  *********** */
+/* ******************************* */
+
 .footer{
   background: black;
   color:white;
 }
-/*booking button*/
+
+
+
+/* For Matt to design */
+/* *************************************** */
+/* *********** Booking button  *********** */
+/* *************************************** */
 
 .booking-button {
   font-family: 'Anton',"Arial Black", sans-serif;
@@ -256,6 +270,11 @@ text-align:center;
   right:100px;
   display:block;
 }
+
+/* *************************************** */
+/* *********** Mobile First  ************* */
+/* *************************************** */
+
 @media (min-width:1138px){
     .desktop_nav{
         display:block;

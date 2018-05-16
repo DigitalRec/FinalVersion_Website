@@ -5,19 +5,6 @@ https://css-tricks.com/three-line-menu-navicon*/
 
 
 
-window.onscroll = function(){ sticknav() };
-var navbar= document.getElementById("d_nav");
-var sticky = navbar.offsetTop;
-
-function sticknav() {
-  if(window.pageYOffset >= sticky){
-    navbar.classList.add("stick");
-  } else {
-    navbar.classList.remove("stick");
-  }
-}
-
-
 
 function mobilenav_open(){
   document.getElementById("sidemenu").style.width="100%";
