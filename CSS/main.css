@@ -248,6 +248,11 @@ header{
     .booking-desktop {
       display:block;
     }
+    
+    .booking-button:hover {
+      opacity:1;
+    }
+    
     .container{
       grid-template-columns: auto auto;
     }
