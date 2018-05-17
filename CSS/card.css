@@ -16,11 +16,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 500px;
-  height:300px;
   box-sizing: border-box;
   overflow: hidden;
   transition: opacity 1s;
+  min-width: 500px;
+  min-height: 400px;
 }
 
 .card:hover{
