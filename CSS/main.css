@@ -172,8 +172,6 @@ header{
   height:auto;
   font-size: 30px;
   text-align: center;
-  overflow: hidden;
-  box-sizing: border-box;
 }
 
 
@@ -249,12 +247,16 @@ header{
     .booking-desktop {
       display:block;
     }
-    
+
     .booking-button:hover {
       opacity:1;
     }
-    
+
     .container{
       grid-template-columns: auto auto;
+    }
+    .card{
+      height:300px;
+      width: 500px;
     }
 }
