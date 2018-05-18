@@ -138,10 +138,10 @@ header{
 /* ************ Body  ************ */
 /* ******************************* */
 .main_body{
-  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #0E0B16;
+  background-image:url("../images/background1.png");
+  background-size: cover;
 }
 .main_body .mid_body{
   width:100%;
@@ -167,7 +167,7 @@ header{
   box-sizing: border-box;
 }
 
-.items {
+.container .items {
   width:100%;
   max-height:300px;
   font-size: 30px;
@@ -259,6 +259,6 @@ header{
     }
     .card{
       height:300px;
-      width: 500px;
+      width: 550px;
     }
 }
