@@ -13,15 +13,14 @@
 
 .card {
   border-radius: 10px 10px 10px 10px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   box-sizing: border-box;
   overflow: hidden;
-  transition: opacity 1s;
   height: 300px;
+  transition: background-size 0.3s ease-in;
 }
-
 .card:hover{
   background-size: 120%;
 }
