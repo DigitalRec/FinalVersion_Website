@@ -140,10 +140,13 @@ header{
 /* ************ Body  ************ */
 /* ******************************* */
 .main_body{
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   background-color: #e2e2e2;
   background-size: cover;
+  box-shadow: 0px 0px 30px 5px #f3dfa7;
+
 }
 .main_body .mid_body{
   width:100%;
@@ -266,6 +269,6 @@ header{
     }
     .img_link{
       height:300px;
-      width: 550px;
+      width: 500px;
     }
 }
