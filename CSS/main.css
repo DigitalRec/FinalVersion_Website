@@ -31,12 +31,11 @@ header{
 }
 .desktop_nav{
     width: 100%;
-    background-color: #000000;
+    background-color: #19181A;
     padding-left: 50px;
     box-sizing:border-box;
     height:80px;
     display: none;
-
 }
 .desktop_nav .desktop_nav_btn{
     display: inline-block;
@@ -140,13 +139,14 @@ header{
 .main_body{
   margin-left: auto;
   margin-right: auto;
-  background-image:url("../images/background1.png");
+  background-color: #022140;
   background-size: cover;
 }
 .main_body .mid_body{
   width:100%;
   overflow: hidden;
 }
+
 .page_image{
   width:100%;
   margin-top: 0px;
@@ -154,6 +154,7 @@ header{
   position: sticky;
   top:0;
   z-index: 0;
+  /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.3, black), color-stop(0.70, black), color-stop(0.90, rgba(0, 0, 0, 0.9)), color-stop(1, transparent)); */
 }
 
 .container {
