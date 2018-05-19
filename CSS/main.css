@@ -2,7 +2,7 @@
 https://www.adam-bray.com ,www.w3schools.com and
 https://css-tricks.com/three-line-menu-navicon
 
-body background image from 
+body background image from
 https://wall.alphacoders.com/big.php?i=805177&lang=Chinese
 */
 
@@ -12,7 +12,6 @@ https://wall.alphacoders.com/big.php?i=805177&lang=Chinese
     text-decoration:none;
 }
 body{
-  /* background-color: #313131; */
   background-image: url("../images/star.jpg")
 }
 
@@ -165,7 +164,7 @@ header{
   position: sticky;
   top:0;
   z-index: 0;
-  /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.3, black), color-stop(0.70, black), color-stop(0.90, rgba(0, 0, 0, 0.9)), color-stop(1, transparent)); */
+
 }
 
 .container {
@@ -268,6 +267,7 @@ header{
 
     .container{
       grid-template-columns: auto auto;
+
     }
     .card{
       max-width: 800px;
