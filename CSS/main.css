@@ -61,7 +61,9 @@ header{
     color:#66FCF1;
     text-decoration:none;
     font-family: 'Anton',"Arial Black", Gadget, sans-serif;
+    text-transform:none;
     font-size: 20px;
+    letter-spacing:1px;
 }
 .desktop_nav  .desktop_nav_btn:hover a{
     color:#80c789;
