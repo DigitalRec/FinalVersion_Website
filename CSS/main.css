@@ -195,10 +195,10 @@ header{
       background-color: #a33327;
 }
 .container .box:nth-child(3) .details{
-      background-color: #2d8a57;
+      background-color: #674434;
 }
 .container .box:nth-child(4) .details{
-      background-color: #907163;
+      background-color: #2d8a57;
 }
 
 .container .box .details{
@@ -400,11 +400,11 @@ header{
   background-image: url('../images/bowling.jpg');
 }
 .home2{
-  background-image: url('../images/bowling.jpg');
+  background-image: url('../images/greatdeal.png');
 }
 .home3{
-  background-image: url('../images/platter.jpeg');
+  background-image: url('../images/food.jpg');
 }
 .home4{
-  background-image: url('../images/bowling.jpg');
+  background-image: url('../images/league.jpg');
 }
