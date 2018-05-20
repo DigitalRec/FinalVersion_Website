@@ -12,6 +12,7 @@ https://wall.alphacoders.com/big.php?i=805177&lang=Chinese
     text-decoration:none;
 }
 body{
+  position: relative;
   background-image: url("../images/star.jpg")
 }
 
@@ -147,10 +148,9 @@ header{
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #e2e2e2;
+  background-color: #2eb6d0;
   background-size: cover;
   box-shadow: 0px 0px 30px 5px #66FCF1;
-
 }
 .main_body .mid_body{
   width:100%;
@@ -167,24 +167,73 @@ header{
 
 }
 
-.container {
-  width:80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 24px;
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 24px;
+.container{
+  font-family: 'Anton',"Arial Black", Gadget, sans-serif;
+  width:100%;
   box-sizing: border-box;
 }
 
-.container .items {
+.container .box{
+  position: relative;
   width:100%;
-  max-height:300px;
-  font-size: 30px;
-  text-align: center;
+  height:250px;
+  float:none;
+  transition:.5s;
+}
+
+.container .box .box_img {
+  position: absolute;
+  width: 100%;
+  height: 250px;
   overflow: hidden;
 }
+
+.container .box:nth-child(1) .details{
+      background-color: #345798;
+}
+.container .box:nth-child(2) .details{
+      background-color: #a33327;
+}
+.container .box:nth-child(3) .details{
+      background-color: #2d8a57;
+}
+.container .box:nth-child(4) .details{
+      background-color: #907163;
+}
+
+.container .box .details{
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      background-color: #262626;
+}
+.container .box .details .content{
+      position: absolute;
+      top:25%;
+      width: 100%;
+      padding: 0 20px;
+      box-sizing: border-box;
+      text-align: center;
+      transition:0.5s;
+
+}
+.container .box .details .content h3{
+      color:#fff;
+      font-size: 30px;
+      padding-top: 20px;
+}
+.container .box .details .content a{
+      display: inline-block;
+      padding:5px 20px;
+      color:#fff;
+      border:2px solid #fff;
+      text-decoration: none;
+      transition: 0.5s;
+      border-radius: 20px;
+
+}
+
 
 
 /* ******************************* */
@@ -194,7 +243,7 @@ header{
 .footer{
   background: black;
   color:white;
-   text-align:center;
+  text-align:center;
 }
 
 
@@ -244,36 +293,118 @@ header{
 
 
 /* *************************************** */
-/* *********** Mobile First  ************* */
+/* *************** desktop  ************** */
 /* *************************************** */
 
+@media(min-width:500px){
+
+  .container .box{
+    width:50%;
+    height:250px;
+    float:left;
+
+}
+
+@media(min-width:1000px){
+
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+  }
+
+  .container .box{
+    height:500px;
+  }
+  .container .box .details{
+    height:500px;
+  }
+}
+
 @media (min-width:1138px){
-    .desktop_nav{
-        display:block;
-    }
-    .mobile_nav{
-        display:none;
-    }
-    .booking-mobile{
-      display:none;
-    }
-    .booking-desktop {
-      display:block;
-    }
+  .desktop_nav{
+    display:block;
+  }
+  .mobile_nav{
+    display:none;
+  }
+  .booking-mobile{
+    display:none;
+  }
+  .booking-desktop {
+    display:block;
+  }
+  .booking-button:hover {
+    opacity:1;
+  }
+  .container{
+    width:100%;
+    height:500px;
+    box-sizing: border-box;
 
-    .booking-button:hover {
-      opacity:1;
-    }
+  }
+  .container .box{
+    height:500px;
+    width: 25%;
+  }
+  .container .box .box_img{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+  .container .box .details{
+    height:250px;
+  }
+  .container .box .details .content a{
+    transform:scale(0);
+  }
+  .container .box:nth-child(odd) .box_img{
+    bottom: 0;
+    left:0;
+  }
+  .container .box:nth-child(even) .details{
+    bottom: 0;
+    left:0;
+  }
+  .container .box:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,1);
+  }
+  .container .box:hover .details .content{
+    top: 30%;
+  }
+  .container .box:hover .details .content a{
+    transform: scale(1);
+  }
+  .container .box .details .content a:hover{
+    background-color: #fff;
+    color:#262626;
+  }
+  .container .box .box_img {
+      background-size: cover;
+      background-position: center;
+  }
+  .img_link{
+    height:300px;
+    width: 500px;
+  }
+}
 
-    .container{
-      grid-template-columns: auto auto;
-
-    }
-    .card{
-      max-width: 800px;
-    }
-    .img_link{
-      height:300px;
-      width: 500px;
-    }
+/* images */
+.home1{
+  background-image: url('../images/bowling.jpg');
+}
+.home2{
+  background-image: url('../images/bowling.jpg');
+}
+.home3{
+  background-image: url('../images/platter.jpeg');
+}
+.home4{
+  background-image: url('../images/bowling.jpg');
 }
