@@ -463,6 +463,21 @@ header{
   .card_right .mob_card{
     display: none;
   }
+    
+    
+  .booking-button {
+    opacity:0.9;
+    background-color: rgb(45, 33, 181);
+}
+
+
+.booking-button:hover {
+  opacity:1;
+  background-color: rgb(45, 33, 181);
+}
+    
+ 
+    
 }
 
 @media (min-width:1138px){
@@ -482,7 +497,6 @@ header{
    .booking-button {
     opacity:0.9;
     background-color: rgb(45, 33, 181);
-
     }  
     
   .booking-button:hover {
