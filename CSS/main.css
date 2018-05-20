@@ -395,6 +395,7 @@ header{
 }
 
 .booking-button:active {
+  background-color: rgb(45, 33, 181);  
   opacity:1;
 }
 
