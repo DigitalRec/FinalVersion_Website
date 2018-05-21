@@ -178,7 +178,7 @@ header{
   font-family: 'Anton',"Arial Black", Gadget, sans-serif;
   width:100%;
   box-sizing: border-box;
-  letter-spacing:2px;  
+  letter-spacing:2px;
 }
 
 .container .box{
@@ -395,7 +395,7 @@ header{
 }
 
 .booking-button:active {
-  background-color: rgb(45, 33, 181);  
+  background-color: rgb(45, 33, 181);
   opacity:1;
 }
 
@@ -415,7 +415,7 @@ header{
       display: block;
   }
 
-    
+
   .booking-button {
     opacity:0.9;
     background-color: rgb(45, 33, 181);
@@ -428,8 +428,8 @@ header{
   background-color: rgb(45, 33, 181);
 
 }
-    
-    
+
+
 }
 
 @media(min-width:1000px){
@@ -441,7 +441,7 @@ header{
     width:100%;
     height:100%;
     box-sizing: border-box;
-    letter-spacing:2px;  
+    letter-spacing:2px;
   }
 
   .container .box{
@@ -463,8 +463,8 @@ header{
   .card_right .mob_card{
     display: none;
   }
-    
-    
+
+
   .booking-button {
     opacity:0.9;
     background-color: rgb(45, 33, 181);
@@ -475,9 +475,9 @@ header{
   opacity:1;
   background-color: rgb(45, 33, 181);
 }
-    
- 
-    
+
+
+
 }
 
 @media (min-width:1138px){
@@ -493,21 +493,21 @@ header{
   .booking-desktop {
     display:block;
   }
-    
+
    .booking-button {
     opacity:0.9;
     background-color: rgb(45, 33, 181);
-    }  
-    
+    }
+
   .booking-button:hover {
     opacity:1;
   }
-    
+
   .container{
     width:100%;
     height:500px;
     box-sizing: border-box;
-    letter-spacing:2px;  
+    letter-spacing:2px;
 
   }
   .container .box{
