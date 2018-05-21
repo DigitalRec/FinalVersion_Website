@@ -289,11 +289,20 @@ header{
   font-weight: 400;
   text-align: left;
   font-size: 40px;
-  margin: 30px 0 20px 0;
+  margin: 30px 0 30px 0;
   padding: 0 0 0 40px;
   letter-spacing: 1px;
+
+}.card_right__review p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 0 40px 0 40px;
+  letter-spacing: 1px;
+  margin: 20px 0 20px 0;
+  line-height: 20px;
 }
-.card_right__review p {
+.card_right__review div p {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -347,8 +356,20 @@ header{
 
 .googlemap{
   width:100%;
-  height: 900px;
+  height: 400px;
   border:0;
+}
+ .showmap{
+  height:40%;
+  width: 100%;
+  box-sizing: border-box;
+}
+ .map_container{
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: max-height 0.2s ease-out;
 }
 .cards .left{
   height:300px;
@@ -357,21 +378,7 @@ header{
   padding:15px;
   box-sizing: border-box;
 }
-.cards .top{
-  height:40%;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: red;
-}
-.cards .bottom{
-  max-height: 0;
-  width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
-  background-color: green;
-  transition: max-height 0.2s ease-out;
 
-}
 .cards .right{
   height:300px;
   width:100%;
@@ -498,6 +505,7 @@ header{
   .container .box .details{
     height:500px;
   }
+
   .card_left{
     width:40%;
   }
@@ -543,10 +551,10 @@ header{
     display:block;
   }
 
-   .booking-button {
+  .booking-button {
     opacity:0.9;
     background-color: rgb(45, 33, 181);
-    }
+  }
 
   .booking-button:hover {
     opacity:1;
@@ -629,4 +637,10 @@ header{
 }
 .activities3{
   background-image: url('../images/minigolf.jpg');
+}
+.contactus1{
+  background-image: url('../images/contactus.png');
+}
+.contactus2{
+  background-image: url('../images/contactuslong.jpg');
 }

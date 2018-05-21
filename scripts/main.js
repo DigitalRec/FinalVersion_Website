@@ -29,26 +29,16 @@ for (i = 0; i < dropdown.length; i++) {
 
 // card open & close
 
-function myFunction() {
-    var x = document.getElementById("cli");
-    if (x.innerHTML === "Click Me") {
-        x.innerHTML = "HIHIHI";
-    } else {
-        x.innerHTML = "Click Me";
-    }
-}
-
-var acc = document.getElementsByClassName("top");
+var acc = document.getElementsByClassName("showmap");
 var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var bottom = this.nextElementSibling;
-    if (bottom.style.maxHeight){
-      bottom.style.maxHeight = null;
+    var map_container = this.nextElementSibling;
+    if (map_container.style.maxHeight){
+      map_container.style.maxHeight = null;
     } else {
-      bottom.style.maxHeight = bottom.scrollHeight + "px";
+      map_container.style.maxHeight = map_container.scrollHeight + "px";
     }
   });
 }
