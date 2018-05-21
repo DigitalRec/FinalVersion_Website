@@ -370,6 +370,7 @@ header{
   overflow: hidden;
   box-sizing: border-box;
   transition: max-height 0.2s ease-out;
+
 }
 .cards .left{
   height:300px;
@@ -505,13 +506,13 @@ header{
   .container .box .details{
     height:500px;
   }
-
+  
   .card_left{
     width:40%;
   }
   .card_right{
     width: 60%;
-    height: 400px;
+    min-height: 400px;
     border-radius: 0px 5px 5px 0px;
     -webkit-border-radius: 0px 5px 5px 0px;
     -moz-border-radius: 0px 5px 5px 0px;
