@@ -158,6 +158,9 @@ header{
   background-color: #2eb6d0;
   background-size: cover;
   box-shadow: 0px 0px 30px 5px #66FCF1;
+  border-left: 2px solid #66FCF1;
+  border-right: 2px solid #66FCF1;
+
 }
 .main_body .mid_body{
   width:100%;
