@@ -409,6 +409,12 @@ header{
   height: 400px;
   border:0;
 }
+.platter_container{
+  max-height: 0;
+  overflow: hidden;
+
+}
+
  .showmap{
   height:40%;
   width: 100%;

@@ -48,11 +48,24 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    var map_container = this.nextElementSibling;
-    if (map_container.style.maxHeight){
-      map_container.style.maxHeight = null;
+    var pic = this.nextElementSibling;
+    if (pic.style.maxHeight){
+      pic.style.maxHeight = null;
     } else {
-      map_container.style.maxHeight = map_container.scrollHeight + "px";
+      pic.style.maxHeight = pic.scrollHeight + "px";
+    }
+  });
+}
+var acc = document.getElementsByClassName("platterDetail");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var platterDetail = this.nextElementSibling;
+    if (platterDetail.style.maxHeight){
+      platterDetail.style.maxHeight = null;
+    } else {
+      platterDetail.style.maxHeight = platterDetail.scrollHeight + "px";
     }
   });
 }
