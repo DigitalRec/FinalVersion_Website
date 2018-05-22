@@ -87,5 +87,5 @@ for (i = 0; i < acc.length; i++) {
 //Booking form button submitted successfully
 
 function myFunction() {
-    document.getElementById("BookingFormSubmit").innerHTML = "Submitted Successfully!";
+    document.getElementById("BookingFormSubmit").innerHTML = "Submitted!";
 }
