@@ -462,11 +462,13 @@ header{
 /* *********** Footer  *********** */
 /* ******************************* */
 
-.footer{
+footer{
   width:100%;
   background-color: black;
   color:white;
   height:150px;
+  text-align: left;
+  padding:1em;
 }
 .footerLogo{
   float:left;
@@ -475,7 +477,7 @@ header{
 .businessInfo{
   float:left;
   margin-left: 2em;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .siteMap{
   float:left;
@@ -484,11 +486,15 @@ header{
 }
 .socialLinks{
   float:right;
-  margin-right: 5em;
+  margin-right: 1em;
 }
-
+.socialLinks img{
+  width:20%;
+  height:auto;
+}
 .footerCopyright{
   float:right;
+  margin-right: 0em;
 }
 
 
