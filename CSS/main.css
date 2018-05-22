@@ -466,6 +466,28 @@ header{
   color:white;
   text-align:center;
 }
+.footerLogo{
+  float:left;
+  margin-left: 0em;
+}
+.businessInfo{
+  float:left;
+  margin-left: 2em;
+  font-size: 2em;
+}
+.siteMap{
+  float:left;
+  margin-left: 4em;
+  font-size:1em;
+}
+.socialLinks{
+  float:right;
+  margin-right: 5em;
+}
+
+.footerCopyright{
+  float:right;
+}
 
 
 
