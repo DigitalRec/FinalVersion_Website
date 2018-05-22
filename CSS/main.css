@@ -473,31 +473,17 @@ footer{
   height:150px;
   text-align: left;
 }
-.footerLogo{
-  float:left;
-  margin-left: 0em;
-}
-.businessInfo{
-  float:left;
-  margin-left: 2em;
-  font-size: 1.5em;
-}
 .siteMap{
   float:left;
   margin-left: 4em;
   font-size:1em;
 }
-.socialLinks{
+.facebookIcon{
   float:right;
   margin-right: 1em;
 }
-.socialLinks img{
-  width:20%;
-  height:auto;
-}
 .footerCopyright{
   float:right;
-  margin-right: 0em;
 }
 
 
