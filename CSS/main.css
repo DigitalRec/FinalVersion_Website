@@ -169,8 +169,9 @@ header{
   position: sticky;
   top:0;
   z-index: 0;
-
 }
+
+
 /* ************************************ */
 /* ************ Container  ************ */
 /* ************************************ */
@@ -258,15 +259,15 @@ header{
 }
 
 .left{
-  width:100%;
+  width: 100%;
   background-color: #000000;
   border-radius: 20px;
-  border: 2px solid #66FCF1;
-
 }
+
 .left h1{
   padding:20px;
 }
+
 .left img{
     display: block;
     margin-left: auto;
@@ -457,7 +458,6 @@ header{
 
 
 
-/* For Matt to design */
 /* *************************************** */
 /* *********** Booking button  *********** */
 /* *************************************** */
@@ -499,6 +499,32 @@ header{
 .booking-button:active {
   background-color: rgb(45, 33, 181);
   opacity:1;
+}
+
+
+/* *************************************** */
+/* *********** Booking page  *********** */
+/* *************************************** */
+
+.booking{
+  width:95%;
+  height:100%;
+  background-color: #000000;
+  margin:20px auto;
+  padding: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.8);
+}
+
+.booking h1{
+  width:100%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 0 30px 0;
+  padding: 40px 0 40px 0 ;
+  letter-spacing: 1px;
 }
 
 
