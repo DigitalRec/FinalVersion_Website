@@ -69,3 +69,17 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+var acc = document.getElementsByClassName("birthdayDetail");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var platterDetail = this.nextElementSibling;
+    if (platterDetail.style.maxHeight){
+      platterDetail.style.maxHeight = null;
+    } else {
+      platterDetail.style.maxHeight = platterDetail.scrollHeight + "px";
+    }
+  });
+}
