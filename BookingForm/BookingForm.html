@@ -58,7 +58,7 @@
           <div class="booknow"></div>
           <form>
             <div>
-              <label class="requireds"  >*Name:</label>
+              <label class="required"  >*Name:</label>
               <input type="text" name="name" placeholder="John Smith" required/>
             </div>
             <div>
@@ -66,11 +66,11 @@
               <input type="text" name="address" min="1" placeholder="69 Progress Drive Nightcliff NT 0810"/>
             </div>
             <div>
-              <label class="requireds">*Email:</label>
+              <label class="required">*Email:</label>
               <input type="email" name="email" placeholder="JohnS@example.com" required/>
             </div>
             <div>
-              <label class="requireds">*Telephone Number:</label>
+              <label class="required">*Telephone Number:</label>
               <input type="number" name="telephone number" placeholder="04XXXXXXXX" required/>
             </div>
             <div>
@@ -78,11 +78,11 @@
               <input type="date" name="Birthdate"/>
             </div>
             <div>
-              <label>*Booking Details (Time and Plans):</label>
+              <label class="required">*Booking Details (Time and Plans):</label>
               <input type="text" name="BookingDetails" placeholder="30/04/2018 2pm. We want to book 2 lanes." required/>
             </div>
             <div class='card_right__button'>
-              <a href='#' target=''>SUBMIT</a>
+              <a href='#'onclick="myFunction()" id="BookingFormSubmit" target=''>SUBMIT</a>
             </div>
           </form>
         </div>
