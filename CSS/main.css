@@ -462,9 +462,10 @@ header{
 /* ******************************* */
 
 .footer{
-  background: black;
+  width:100%;
+  background-color: black;
   color:white;
-  text-align:center;
+  height:150px;
 }
 .footerLogo{
   float:left;
