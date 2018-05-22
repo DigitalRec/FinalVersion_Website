@@ -618,6 +618,7 @@ header{
 }
 
 /* images */
+
 .home1{
   background-image: url('../images/bowling.jpg');
 }
@@ -644,4 +645,14 @@ header{
 }
 .contactus2{
   background-image: url('../images/contactuslong.jpg');
+}
+.open1{
+  background-image: url('../images/open.jpg');
+}
+.open2{
+  background-image: url('../images/openmob.jpg');
+}
+.open3{
+  background-image: url('../images/cafe.jpg');
+
 }
