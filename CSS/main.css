@@ -354,6 +354,10 @@ header{
   transition-duration: .5s;
 }
 
+.block{
+  height:20px
+}
+
 .googlemap{
   width:100%;
   height: 400px;
