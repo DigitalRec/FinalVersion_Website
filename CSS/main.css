@@ -554,6 +554,7 @@ header{
   }
   .card_right .mob_card{
       display: block;
+      height:350px;
   }
 
 
@@ -768,6 +769,9 @@ header{
 }
 .specialEvents{
   background-image: url('../images/specialEvents.jpg');
+}
+.specialEvents1{
+  background-image: url('../images/specialEvents1.jpg');
 }
 .league{
   background-image: url('../images/league.jpg');
