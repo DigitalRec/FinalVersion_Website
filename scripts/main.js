@@ -42,3 +42,17 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+var acc = document.getElementsByClassName("showpic");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var map_container = this.nextElementSibling;
+    if (map_container.style.maxHeight){
+      map_container.style.maxHeight = null;
+    } else {
+      map_container.style.maxHeight = map_container.scrollHeight + "px";
+    }
+  });
+}
