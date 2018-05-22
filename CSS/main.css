@@ -473,30 +473,23 @@ footer{
   width:100%;
   background-color: black;
   color:white;
-  height:130px;
+  height:80px;
   text-align:center;
 }
 
 footer a{
   text-decoration: none; color:white;
 }
-.siteMap{
-  padding-top:20px;
-  font-size:15px;
-}
+
 .facebookIcon{
   padding-top:10px;
 }
 .footerCopyright{
   margin-top:5px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 @media(min-width:1000px){
-
-  .siteMap{
-    font-size:18px;
-  }
 
   .footerCopyright{
     font-size:18px;
