@@ -650,9 +650,11 @@ header{
   background-image: url('../images/open.jpg');
 }
 .open2{
-  background-image: url('../images/openmob.jpg');
+  background-image: url('../images/wereopen.jpg');
 }
 .open3{
   background-image: url('../images/cafe.jpg');
-
+}
+.open4{
+  background-image: url('../images/cafe.jpg');
 }
