@@ -475,12 +475,11 @@ footer{
 }
 .siteMap{
   float:left;
-  margin-left: 4em;
   font-size:1em;
 }
 .facebookIcon{
   float:right;
-  margin-right: 1em;
+  padding-right: 2em;
 }
 .footerCopyright{
   float:right;
