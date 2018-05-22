@@ -42,3 +42,30 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+var acc = document.getElementsByClassName("showpic");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var pic = this.nextElementSibling;
+    if (pic.style.maxHeight){
+      pic.style.maxHeight = null;
+    } else {
+      pic.style.maxHeight = pic.scrollHeight + "px";
+    }
+  });
+}
+var acc = document.getElementsByClassName("platterDetail");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var platterDetail = this.nextElementSibling;
+    if (platterDetail.style.maxHeight){
+      platterDetail.style.maxHeight = null;
+    } else {
+      platterDetail.style.maxHeight = platterDetail.scrollHeight + "px";
+    }
+  });
+}
