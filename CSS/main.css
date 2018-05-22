@@ -363,12 +363,12 @@ header{
   height: 400px;
   border:0;
 }
- .showmap, .platterDetail{
+ .showmap{
   height:40%;
   width: 100%;
   box-sizing: border-box;
 }
- .map_container, .platter_container{
+ .map_container{
   max-height: 0;
   width: 100%;
   overflow: hidden;
