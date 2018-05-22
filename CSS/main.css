@@ -724,6 +724,9 @@ header{
 .foodPlatter{
   background-image: url('../images/foodPlatter.jpg');
 }
+.birthdayParties{
+  background-image: url('../images/birthdayParties.jpg');
+}
 .specialEvents{
   background-image: url('../images/specialEvents.jpg');
 }
