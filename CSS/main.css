@@ -363,12 +363,12 @@ header{
   height: 400px;
   border:0;
 }
- .showmap{
+ .showmap .platterDetail{
   height:40%;
   width: 100%;
   box-sizing: border-box;
 }
- .map_container{
+ .map_container .platter_container{
   max-height: 0;
   width: 100%;
   overflow: hidden;
@@ -661,4 +661,8 @@ header{
 }
 .open4{
   background-image: url('../images/cafe.jpg');
+}
+
+.foodplatter{
+  background-image: url('../images/foodPlatter.jpg');
 }
