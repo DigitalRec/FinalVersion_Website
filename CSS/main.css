@@ -483,12 +483,11 @@ header{
 }
 .socialLinks{
   float:right;
-  margin-right: 5em;
-  width:20%;
-  height:auto;
+  margin-right: 5em;  
 }
 .socialLinks img{
-
+  width:20%;
+  height:auto;
 }
 .footerCopyright{
   float:right;
