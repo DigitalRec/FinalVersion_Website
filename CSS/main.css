@@ -835,5 +835,8 @@ footer a{
 }
 .booknow{
   background-image: url('../images/booknow1.jpg');
+}
 
+.latestDeals{
+  background-image: url('../images/latestDeals.jpg')
 }
