@@ -272,7 +272,7 @@ header{
 
 .left{
   width:calc(100% - 4);
-  background-color: #000000;
+  background-color: red;
   border-radius: 20px;
   border: 2px solid #66FCF1;
 }
@@ -680,11 +680,11 @@ footer a{
   background-color: rgb(45, 33, 181);
   }
   .left{
-    width:49%;
+    width:49.5%;
     float: left;
   }
   .right{
-    width:50%;
+    width:49.5%;
     float: left;
   }
 
