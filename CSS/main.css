@@ -542,8 +542,10 @@ footer a{
   width:7em;
   text-decoration: none;
   text-align: center;
-  padding-top:1px;
+  padding:8px 20px;
   border-color:black;
+  position:relative;
+  top:11px;
 }
 .booking-button a{
   color:white;
