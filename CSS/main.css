@@ -481,7 +481,9 @@ footer{
   height:125px;
   text-align:center;
 }
-
+footer div .fa{
+  font-size:38px;
+}
 footer a{
   text-decoration: none; color:white;
 }
