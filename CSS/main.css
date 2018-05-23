@@ -555,38 +555,6 @@ footer a{
 }
 
 
-input[type=submit] {
-margin:0;
-color: #66FCF1;
-text-decoration: none;
-font-family: 'Montserrat', sans-serif;
-border: 2px solid #66FCF1;
-font-size: 24px;
-background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/COMdoWZ.png);
-background-size: 12px 12px;
-background-repeat: no-repeat;
-background-position: 7% 50%;
-border-radius: 5px;
--webkit-transition-property: all;
-transition-property: all;
--webkit-transition-duration: .5s;
-transition-duration: .5s;
-}
-
-input[type=submit]:hover {
-color: #000000;
-background-color: #66FCF1;
-background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/343086/rFQ5dHA.png);
-background-size: 12px 12px;
-background-repeat: no-repeat;
-background-position: 10% 50%;
-cursor: pointer;
--webkit-transition-property: all;
-transition-property: all;
--webkit-transition-duration: .5s;
-transition-duration: .5s;
-}
-
 
 
 
@@ -618,7 +586,10 @@ transition-duration: .5s;
   padding: 40px 0 40px 0 ;
   letter-spacing: 1px;
 }
-
+.submitbutton {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
 
 /* *************************************** */
 /* *************** desktop  ************** */
