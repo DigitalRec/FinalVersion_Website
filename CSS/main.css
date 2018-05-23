@@ -430,6 +430,8 @@ header{
 .platter_container{
   max-height: 0;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
 
 }
 
@@ -448,6 +450,8 @@ header{
 .birthday_container{
   max-height: 0;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
 }
 .cards .left{
   height:300px;
