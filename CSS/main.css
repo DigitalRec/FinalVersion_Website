@@ -606,7 +606,9 @@ footer a{
       display: block;
       height:350px;
   }
-
+  .sidemenu .block{
+    display: none;
+  }
 
   .booking-button {
     opacity:0.9;
