@@ -137,7 +137,7 @@ header{
   width:35px;
 }
 .hamburger:hover .burger_line, .hamburger:hover .burger_line_1{
-  background-color:#f1479d;
+  background-color:#66FCF1;
 }
 .burger_line_1, .burger_line{
   background-color: white;
