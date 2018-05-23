@@ -39,6 +39,7 @@ header{
   position:absolute;
 }
 .desktop_nav{
+    position:absolute;
     width: 100%;
     background-color: #19181A;
     padding-left: 50px;
@@ -56,6 +57,11 @@ header{
 }
 .desktop_nav > div:first-child desktop_nav_btn{
     margin-right: 30px;
+}
+.breadcrumb{
+  background-color: #66FCF1;
+  height:2px;
+  padding-top: -20px;
 }
 
 .desktop_nav .desktop_nav_btn a{
