@@ -272,7 +272,7 @@ header{
 
 .left{
   width:calc(100% - 4);
-  background-color: red;
+  background-color: #000000;
   border-radius: 20px;
   border: 2px solid #66FCF1;
 }
