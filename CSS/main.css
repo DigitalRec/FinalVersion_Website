@@ -675,15 +675,15 @@ footer a{
   }
 
 
-.booking-button:hover {
+  .booking-button:hover {
   opacity:1;
   background-color: rgb(45, 33, 181);
   }
-  .left{
+  .non_card_container .left{
     width:49.5%;
     float: left;
   }
-  .right{
+  .non_card_container .right{
     width:49.5%;
     float: left;
   }
