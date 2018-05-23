@@ -473,32 +473,37 @@ footer{
   width:100%;
   background-color: black;
   color:white;
-  height:130px;
+  height:125px;
   text-align:center;
 }
 
 footer a{
   text-decoration: none; color:white;
 }
-.siteMap{
-  padding-top:20px;
+
+.aboutUs{
+  padding-top:15px;
   font-size:15px;
 }
+
 .facebookIcon{
   padding-top:10px;
 }
+
 .footerCopyright{
-  margin-top:5px;
-  font-size: 15px;
+  padding-top:5px;
+  font-size: 16px;
 }
 
 @media(min-width:1000px){
 
-  .siteMap{
+  .aboutUs{
+    padding-top:15px;
     font-size:18px;
   }
 
   .footerCopyright{
+    padding-top:5px;
     font-size:18px;
   }
 

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../CSS/card.css">
     <link rel="stylesheet" href="../CSS/form.css">
     <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="main_body">
@@ -53,12 +54,11 @@
         </div>
       </header> <!--END OF HEADER -->
       <div class="mid_body">
-        <img src="../images/Planet-Ten-Pin-Slider-Logo-V4.jpg" alt="Paris" class="page_image">
         <div class="booking">
           <div class="booknow"></div>
           <form>
             <div>
-              <label class="requireds"  >*Name:</label>
+              <label class="required"  >*Name:</label>
               <input type="text" name="name" placeholder="John Smith" required/>
             </div>
             <div>
@@ -66,11 +66,11 @@
               <input type="text" name="address" min="1" placeholder="69 Progress Drive Nightcliff NT 0810"/>
             </div>
             <div>
-              <label class="requireds">*Email:</label>
+              <label class="required">*Email:</label>
               <input type="email" name="email" placeholder="JohnS@example.com" required/>
             </div>
             <div>
-              <label class="requireds">*Telephone Number:</label>
+              <label class="required">*Telephone Number:</label>
               <input type="number" name="telephone number" placeholder="04XXXXXXXX" required/>
             </div>
             <div>
@@ -78,17 +78,30 @@
               <input type="date" name="Birthdate"/>
             </div>
             <div>
-              <label>*Booking Details (Time and Plans):</label>
+              <label class="required">*Booking Details (Time and Plans):</label>
               <input type="text" name="BookingDetails" placeholder="30/04/2018 2pm. We want to book 2 lanes." required/>
             </div>
             <div class='card_right__button'>
+<<<<<<< HEAD
               <input type="submit" value="Submit">
+=======
+              <a href='#'onclick="myFunction()" id="BookingFormSubmit" target=''>SUBMIT</a>
+>>>>>>> 50b1198cabd0ae1c12c2c34440d4d01aec8ddb4e
             </div>
           </form>
         </div>
       </div>
       <footer>
-        <div class="footer"> &copy;	DigitalRec 2018 </div>
+        <div class="aboutUs">
+          <p>The Planet, a local business supporting local sport and recreation for over 40 years.</p>
+        </div>
+        <div class="facebookIcon">
+          <a href="https://www.facebook.com/planettenpin/"><i class="fa fa-facebook-official" style="font-size:38px"></i></a>
+        </div>
+        <div class="footerCopyright">
+          &copy; DigitalRec 2018
+        </div>
+      </footer>
       </footer>
     </div>
     <script type="text/javascript" src="../scripts/main.js"></script>
